@@ -26,10 +26,8 @@ public class Instatiation implements CommandLineRunner {
 		
 		userRepository.saveAll(Arrays.asList(maria,alex,bob));
 		
-		
 	}
 
-	
 	
 	
 }
