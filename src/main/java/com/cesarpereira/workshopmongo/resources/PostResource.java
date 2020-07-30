@@ -10,8 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.cesarpereira.workshopmongo.domain.Post;
 import com.cesarpereira.workshopmongo.services.PostService;
 
-
-
 @RestController
 @RequestMapping(value="/posts")
 public class PostResource {
@@ -25,11 +23,5 @@ public class PostResource {
 		Post obj = service.findById(id);
 		return ResponseEntity.ok().body(obj);
 	}
-
-	
-	
-	
-	
-	
 	
 }
