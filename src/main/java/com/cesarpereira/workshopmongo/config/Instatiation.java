@@ -18,7 +18,6 @@ import com.cesarpereira.workshopmongo.repository.UserRepository;
 @Configuration
 public class Instatiation implements CommandLineRunner {
 
-	
 	@Autowired
 	private UserRepository userRepository;
 	
